@@ -1,3 +1,6 @@
+"""example usage:
+uv run inspect eval eval_2.py --model openrouter/openai/gpt-5.1-codex-mini --epochs 10 --max-connections 2"""
+
 from inspect_ai import Task, task
 from inspect_ai.dataset import example_dataset,json_dataset
 from inspect_ai.scorer import model_graded_fact
