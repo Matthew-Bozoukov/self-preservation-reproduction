@@ -2,4 +2,4 @@ services:
   default:
     build: .
     command: tail -f /dev/null
-    working_dir: /task
+    working_dir: /root
