@@ -1,3 +1,16 @@
+""" example usage:
+
+uv run main.py --
+
+
+
+"""
+
+
+
+
+
+
 import os
 import asyncio
 from openai import AsyncOpenAI
